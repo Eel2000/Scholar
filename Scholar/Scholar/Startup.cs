@@ -29,7 +29,8 @@ namespace Scholar
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+            //app.UseRouting();
+            app.UseMvcWithDefaultRoute();
 
             app.UseEndpoints(endpoints =>
             {
